@@ -1,13 +1,14 @@
 export const menuContent = `
+<h1 class="game-menu__title">Запусти игру</h1>
 <div class="game-menu">
     <span>СЛОЖНОСТЬ</span>
     <button class="sketch-button easy">ЛЕГКО</button>
     <button class="sketch-button norm">НОРМАЛЬНО</button>
     <button class="sketch-button hard">СЛОЖНО</button>
-</div>`
+</div>`;
 
 export const tetrisContent = `
-<h1 class="title">TETRIS</h1>
+<h1 class="title">vkartyshov@inbox.ru</h1>
 <div class="game-content__inner">
     <div class="canvas-bg">
         <canvas width="320" height="640" id="game"></canvas>
@@ -65,4 +66,4 @@ export const tetrisContent = `
         </div>
     </div>
 </div>
-`
+`;
